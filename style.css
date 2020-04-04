@@ -1,0 +1,147 @@
+div{
+    display: block;
+}
+
+#header-container{
+    width: 1515px;
+    height: 80px;
+    background-color: #315ae0;
+    position: relative;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#footer-container{
+    width: 1515px;
+    height: 150px;
+    background-color: #da4ada;
+    position: relative;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#title-arth{
+
+   margin-top: 12px;
+   float: left;
+   margin-left: 90px;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 35px;
+    font-family: Ubuntu;
+}
+
+.portfolio-text-container-right {
+    right: 250px;
+}
+
+
+.portfolio-text-container-left {
+    left: 0px;
+}
+
+.portfolio-text-title {
+    position: relative;
+    font-family: Anton;
+    color: #dfe229;
+    font-size: 70px;
+    line-height: 56px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.portfolio-text-body {
+    position: relative;
+    font-family: Ubuntu;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 100px;
+    margin-left: 45px;
+}
+
+.portfolio-text-container {
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.port{
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+}
+
+#port-1{
+    background-color: #00bff3;
+    background-image: url(port1.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    
+    height: 600px;
+}
+
+#port-2{
+    background-color: #0bcce6da;
+    background-image: url(ArthPic.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+#port-3{
+    /* background-color: #00bff3; */
+    background-image: url(port3.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#icons-container-right {
+    position: relative;
+    top: 8px;
+    float: right;
+}
+
+.icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.icon-facebook {
+    background-image: url("https://img.icons8.com/dusk/64/000000/facebook-new--v2.png");
+}
+
+.icon-twitter {
+    background-image: url("https://img.icons8.com/dusk/64/000000/twitter.png");
+}
+
+.icon-insta {
+    background-image: url("https://img.icons8.com/officel/16/000000/instagram-new.png");
+}
+
+.icon-email {
+    background-image: url("https://img.icons8.com/dusk/64/000000/email.png");
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
